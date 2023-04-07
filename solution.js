@@ -1,6 +1,8 @@
+
+
+
 function solution(N){
     if(N !== parseInt(N, 10)) return 'Input must be an integer';
-  
     const binaryNumber = N.toString(2);
     
     //Creating an Array of length of each binary item
